@@ -69,7 +69,7 @@ import PermissionModelPage from './pages/PermissionModelPage';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/node-mastery/">
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<HomePage />} />
